@@ -62,9 +62,8 @@ nav a {
   background: white;
   left: 0;
   padding: 6px;
-  -webkit-transition: top 1s ease-out;
-  transition: top 1s ease-out;
-  z-index: 1;
+  position: relative;
+
 }
 
 
@@ -221,9 +220,9 @@ first div in the grid  and place it in the grid. */
 /* Step 8: Write the selector/rule property to style the .text-block class. */
 
 .text-block {
-  margin-top: auto;
-  margin-bottom: auto;
+  justify-self: center;
   text-align: center;
+  align-self: center;
 
 }
 
